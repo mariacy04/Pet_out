@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/pet" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="242dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="81dp"
+        android:layout_marginEnd="79dp"
+        android:layout_marginBottom="319dp"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:text="@string/SplashWelcome"
+        android:textColor="@color/white"
+        android:textSize="40dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/progressBar"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="64dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginBottom="102dp"
+        android:fontFamily="monospace"
+        android:freezesText="true"
+        android:gravity="center"
+        android:rotationX="-7"
+        android:text="Track The Walks Of Your Four Legged Friend"
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="50dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="130dp"
+        android:layout_marginEnd="130dp"
+        android:background="@drawable/boton_redondo"
+        android:backgroundTint="#0097A7"
+        android:backgroundTintMode="src_atop"
+        android:drawableTint="@color/teal_700"
+        android:focusable="auto"
+        android:focusableInTouchMode="true"
+        android:fontFamily="monospace"
+        android:foregroundTint="#FF9800"
+        android:gravity="center"
+        android:text="LETS GO"
+        android:textAllCaps="false"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@color/white"
+        android:textColorLink="@color/teal_700"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:translationX="10dp"
+        android:translationY="600dp"
+        app:iconTint="#FFEB3B"
+        app:rippleColor="#0097A7"
+        app:strokeColor="#0097A7" />
+
+</RelativeLayout>

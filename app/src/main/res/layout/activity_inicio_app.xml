@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFCFFAD"
+    tools:context=".Steps.InicioAppActivity">
+
+    <TextView
+        android:id="@+id/paseosApp"
+        android:layout_width="450dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="16dp"
+        android:autoText="true"
+        android:background="@drawable/boton_redondo"
+        android:backgroundTint="#FBC02D"
+        android:foregroundGravity="left|center_vertical|center_horizontal"
+        android:foregroundTint="#050505"
+        android:gravity="center_horizontal|left"
+        android:text="@string/paseosApp"
+        android:textAlignment="gravity"
+        android:textSize="15dp"
+        android:typeface="sans"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.42"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/guarderiaAPP"
+        android:layout_width="450dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:background="@drawable/boton_redondo"
+        android:backgroundTint="#FBC02D"
+        android:foregroundGravity="center"
+        android:text="@string/guarderiaApp"
+        android:textAlignment="gravity"
+        android:textSize="9dp"
+        android:typeface="sans"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.405"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.543" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/Paseo"
+        android:layout_width="145dp"
+        android:layout_height="147dp"
+        android:layout_marginStart="155dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="155dp"
+        android:src="@drawable/perros"
+        app:civ_border_color="@color/teal_700"
+        app:civ_border_width="2dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/Guarderia"
+        android:layout_width="148dp"
+        android:layout_height="136dp"
+        android:layout_marginStart="155dp"
+        android:layout_marginTop="428dp"
+        android:layout_marginEnd="155dp"
+        android:src="@drawable/guarderia"
+        app:civ_border_color="@color/teal_700"
+        app:civ_border_width="2dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="381dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:autoText="true"
+        android:background="@drawable/stylo_borde_editext"
+        android:freezesText="true"
+        android:gravity="clip_horizontal|center"
+        android:text="Si deseas toda la atención para tu mascota, y quieres que el paseador realice una ruta en específico esta será la mejor opción."
+        android:textAlignment="gravity"
+        android:textAllCaps="false"
+        android:textColor="#040404"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.724"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="228dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="368dp"
+        android:layout_height="145dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/stylo_borde_editext"
+        android:gravity="center_horizontal"
+        android:text="Aplicación número 1 en cuidado de mascotas y paseo de perros. Halla cuidadores de mascotas de confianza en tu zona que ofrecen alojamiento, guardería de día o paseos. "
+        android:textAlignment="gravity"
+        android:textAllCaps="false"
+        android:textColor="#040404"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.478"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
